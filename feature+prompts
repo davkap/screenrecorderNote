@@ -1,0 +1,41 @@
+WE ARE ON VERSION 3 WHICH HAS SCREEN RECORDER, NOTE TAKING, SHOW LIST OF NOTES, DOWNLOAD VIDEO + SRT FILE
+
+NEXT {
+- NEED TO CHANGE THINGS UP FOR THE SCREEN RECORDING APP TO HAVE A PRELOAD.JS SO CODE IS CLEANER AND UP TO DATE}
+
+
+what does my updated renderer.js code look like if this is what It looked like before
+please save this renderer.js as our version 1 of our app. So when I mention it, we also return to this code of the renderer.js file: 
+
+BUGS{
+    - I need to fix when I type and then erase what I was gonna type. The start time is the one when I first typed not the second time i typed
+}
+
+FEATURES{
+    Features
+
+- have a refresh button to restart
+- DONE searching/filtering through cue list
+    => put the list in a table with the header being the search input
+- changing times of video if time is off
+    => adding or substracting all or just a few of the cue timestamps
+- DONE use javascript to create shortcuts on the app
+    => display shortcuts in the page
+- have the 2x speed capability
+- Save shortcuts to a file. If I want to reUse the shortcut list after refreshing the app then I can
+- Select a few cues and being able to create highlight
+    => clip 10 secs video from main video
+    => merge clips together and export them to computer file
+    => is there a way to trim a 10 second shot from the video element and save it to our app folder?QUESTION FOR gpt 
+    => Is there a way for me to save the keyboardShortArr from the render.js into a file that I would save? And then have a way to upload the file back to the app so I can keep my shortcuts even after refreshing the app. the render.js code is : const { desktopCapturer, remote } = require('electron');
+
+- The app will have a slide with each feature and its html. One for upload video with upload webvtt, upload video with notes area, (NEED TO THINK MORE ABOUT THIS)!
+- Fix bugs and errors
+
+
+WELCOME MESSAGE FOR CHATGPT:
+I am trying to build an javascript electron app that had a screen recording feature, note taking feature that build a webvtt file, a way to upload a video from my computer to the app to watch it, and a way to upload a webvtt file. the code tree of my screenRecorderApp is the src folder has an index.css, index.html, index.js, and render.js.
+
+Then: here is the index.html code: 
+
+}
